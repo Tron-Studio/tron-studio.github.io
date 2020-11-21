@@ -1,0 +1,28 @@
+.baidu-mask{
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: var(--pdbk);
+    z-index:999;
+}
+:root{
+    overflow: hidden;
+}
+.baidu-mask div,.baidu-mask div svg{
+    width: 50vmin;
+    height: 50vmin;
+}
+.baidu-mask .title{
+    font-size: 7.5vw;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+}
+.baidu-mask > *{
+    position: absolute;
+    top:50vh;
+    left:50vw;
+    transform: translate(-50%,-50%);
+}
