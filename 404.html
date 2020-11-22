@@ -2,8 +2,8 @@
     lang = (navigator.language.search("zh") == -1) ? ("en-us") : ("zh-cn")
     href = window.location.href
     if (href.search("projects/thepure/site") > -1 && href.search("zh-cn") == -1 && href.search("en-us") == -1) {
-        href = "https://tron-studio.github.io/projects/thepure/site/" + lang + href.substring(href.search("site") + 4)
+        window.location.href = "https://tron-studio.github.io/projects/thepure/site/" + lang + href.substring(href.search("site") + 4)
     } else {
-        href = "https://tron-studio.github.io/404/"
+        window.location.href = "https://tron-studio.github.io/404/"
     }
 </script>
