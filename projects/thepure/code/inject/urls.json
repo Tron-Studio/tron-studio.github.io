@@ -1,0 +1,11 @@
+{
+    "hrefs": [
+        "//www.baidu.com"
+    ],
+    "sites": [
+        "baidu"
+    ],
+    "weights": {
+        "baidu": 32767
+    }
+}

@@ -1,0 +1,55 @@
+/* Colors */
+:root {
+    /* Material Colors */
+    --material-yellow-50: #fffde7;
+    --material-yellow-300: #fff176;
+    --material-yellow-600: #fdd835;
+    --material-yellow-900: #f57f17;
+
+    --material-grey-200: #eeeeee;
+    --material-grey-800: #424242;
+    --material-grey-900: #212121;
+    
+    
+}
+
+/* default Color style */
+html {
+    /* Color style: light */
+    --primary-color: var(--y600);
+    --interactive-color: var(--gr900);
+    --product-background: var(white);
+    --product-text-color: var(--gr900);
+}
+@media (prefers-color-scheme: dark) {
+    /* Color style: Dark */
+    html {
+        --primary-color: var(--gr200);
+        --interactive-color: var(--y300);
+        --product-background: var(--gr900);
+        --product-text-color: var(--gr200);
+    }
+}
+html > body{
+    background: var(--pdbk);
+    color: var(--pdt);
+}
+
+/* Shorthands */
+:root{
+    /* Colors */
+    --y50:var(--material-yellow-50);
+    --y300:var(--material-yellow-300);
+    --y600:var(--material-yellow-600);
+    --y900:var(--material-yellow-900);
+
+    --gr200:var(--material-grey-200);
+    --gr800:var(--material-grey-800);
+    --gr900:var(--material-grey-900);
+
+    /* default Color style */
+    --pc:var(--primary-color);
+    --ic:var(--interactive-color);
+    --pdt:var(--product-text-color);
+    --pdbk:var(--product-background);
+}
